@@ -1,0 +1,32 @@
+#product-cart{
+    position: fixed;
+    width: 22%;
+    transition: transform .5s
+}
+
+.order-button{
+    color: white;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 2px 5px;
+    border-radius: 3px;
+    
+}
+
+#product-cart:hover{
+    transform: scale(1.05);
+    
+    
+}
+
+@media only screen and (max-width: 767px) {
+    #product-cart {
+        
+        position: fixed;
+        width: 25%;
+        top: 35%;
+        left: 73%;
+        font-size: 10px;  
+    }
+}
+

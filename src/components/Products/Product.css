@@ -1,0 +1,9 @@
+#products-card{
+    transition: transform 0.2s ease-in-out;
+}
+
+#products-card:hover{
+    transform: scale(1.03);
+    
+    
+}
